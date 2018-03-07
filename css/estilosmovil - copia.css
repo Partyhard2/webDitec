@@ -1,0 +1,36 @@
+html,body{
+	margin:0px;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+}
+.header{
+	width:100%;
+	position:fixed;
+	background: linear-gradient(to left,#0080FF,white)
+}
+#container{
+	height:100%;
+	width:auto;
+	margin:0 auto;
+	background: linear-gradient(180deg,white, gray);
+}
+#buscador{
+	height:50px;
+	width:75%;
+}
+.searchButton{
+	height:50px;
+	width:50px;
+}
+#menu{
+	margin-right: 150px;
+}
+#menu a{
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	color:black;
+	text-decoration:none;
+	margin-right:50px;
+	margin-left:50px;
+}

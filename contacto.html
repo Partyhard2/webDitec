@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="Moviles">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="css/estilosContacto.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="scripts/javascript.js"></script>
+	<title>Contacto</title>
+</head>
+<body>
+<div id="container">
+	<div class="header">
+		<div class="header1">
+			<img src="img/logo.png" id="logo">
+		</div>
+		<div class="header2" align="center">
+			<input type="search" placeholder="  Busca tu movil aqui!" id="buscador">
+			<input type="submit" value="t" class="searchButton">
+		</div>
+		</br>
+		<div id="menu" align="right">
+			<a href="index.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Inicio</a>
+			<a href="inicio.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Marcas</a>
+			<a href="contacto.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Contacto</a>
+			</br>
+		</div>
+	</div>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+		<div class="QandA">
+			<li><h2>Preguntas mas frecuentes:
+			</h2>
+				<ul>
+					<li class="pregunta">Pregunta nº1</li>
+					<ul><li class="mostrar" onclick="respuesta();">(Mostrar respuesta)</li></ul>
+					<ul id="respuesta1" class="respuesta">
+					</ul>
+					<li class="pregunta">Pregunta nº2</li>
+					<li class="pregunta">Pregunta nº3</li>
+					<li class="pregunta">Pregunta nº4</li>
+					<li class="pregunta">Pregunta nº5</li>
+				</ul>
+			</li>
+		</div>
+		<div align="center">
+		<div class="mail">
+		<form method="post" action="php/email.php">
+            <div class="imagen">
+			<h3>Envianos un mail:</h3>
+            </div>
+			<p>Tu direccion de correo:</p>
+			<input type="email" name="email">
+			<p>Asunto:</p>
+			<input type="text" name="asunto">
+			<p> Mensaje</p>
+			<textarea name="texto">
+			</textarea>
+			</br>
+			<input type="submit" value="Enviar">
+		</form>
+		</br>
+		</div>
+		<div class="telefono">
+			<h3>O llamenos al:</h3>
+			<p>+(34)000-000-000</p>
+		</div>
+		</div>
+	<div class="footer" align="right">
+		<a href="instagram">@Instagram</a>
+		<a href="facebook">@Facebook</a>
+	</div>
+</div>
+</body>
+</html>

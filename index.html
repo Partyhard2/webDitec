@@ -1,9 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" ng-app="Moviles">
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="javascript.js"></script>
+	<link href="css/estilos.css" rel="stylesheet" type="text/css">
 	<title>Index</title>
 </head>
 <body>
-<h1>Bruno</h1>
+<div id="container">
+	<div class="header">
+		<div class="header1">
+			<img src="img/logo.png" id="logo">
+		</div>
+		<div class="header2" align="center">
+			<input type="search" placeholder="  Busca tu movil aqui!" id="buscador">
+			<input type="submit" value="t" class="searchButton">
+		</div>
+		</br>
+		<div id="menu" align="right">
+			<a href="index.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Inicio</a>
+			<a href="marcas.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Marcas</a>
+			<a href="contacto.html" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Contacto</a>
+			</br>
+		</div>
+	</div>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	<div class="imagenes" align="center">
+		<div class="xiaomi">
+			<div class="imagen">
+				<a href="movil.html"><img src="img/Xiaomi MI A1.png" onmouseover="mostrardetalles()"></a>
+			</div>
+			<div class="descripcion">
+				<span class="name">Xiaomi</span><span class="modelo">MI A1</span></br>
+				<span class="precio">261€</span>
+			</div>
+		</div>
+		<div class="xiaomi">
+			<div class="imagen">
+				<a href="movil.html"><img src="img/Xiaomi MI A1.png" onmouseover="mostrardetalles()"></a>
+			</div>
+			<div class="descripcion">
+				<span class="name">Xiaomi</span><span class="modelo">MI A1</span></br>
+				<span class="precio">261€</span>
+			</div>
+		</div>
+		<div class="xiaomi">
+			<div class="imagen">
+				<a href="movil.html"><img src="img/Xiaomi MI A1.png" onmouseover="mostrardetalles()"></a>
+			</div>
+			<div class="descripcion">
+				<span class="name">Xiaomi</span><span class="modelo">MI A1</span></br>
+				<span class="precio">261€</span>
+			</div>
+		</div>
+		<div class="xiaomi">
+			<div class="imagen">
+				<a href="movil.html"><img src="img/Xiaomi MI A1.png" onmouseover="mostrardetalles()"></a>
+			</div>
+			<div class="descripcion">
+				<span class="name">Xiaomi</span><span class="modelo">MI A1</span></br>
+				<span class="precio">261€</span>
+			</div>
+		</div>
+	</div>
+	<div class="filtro">
+		Filtro
+		<input type="checkbox">
+	</div>
+</div>
 </body>
 </html>

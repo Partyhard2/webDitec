@@ -1,0 +1,55 @@
+html,body{
+	margin:0px;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+}
+.header{
+	width:100%;
+	position:absolute;
+	background: linear-gradient(to left,#0080FF,white)
+}
+#container{
+	height:100%;
+	width:auto;
+	margin:0 auto;
+	background: linear-gradient(180deg,white, gray);
+}
+#buscador{
+	height:50px;
+	width:75%;
+}
+.searchButton{
+	height:50px;
+	width:50px;
+}
+#menu{
+	margin-right: 150px;
+}
+#menu a{
+	color:black;
+	text-decoration:none;
+	margin-right:50px;
+	margin-left:50px;
+}
+.imagenes{
+	display:inline-block;
+	width:75%;
+	border:solid;
+}
+.xiaomi{
+	background-color:#F8C57D;
+	display:inline-block;
+	border:solid;
+	border-width:1px;
+	margin-right:20px;
+}
+.imagen img{
+	height:220px;
+	width:165px;
+}
+.filtro{
+	display:inline-block;
+	border:solid;
+	width:20%;
+}
